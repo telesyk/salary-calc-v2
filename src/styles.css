@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 450px;
+  margin: auto;
+}
+
+.card > * {
+  flex-basis: 100%;
+}
+
+.card .button,
+.card .field {
+  flex-basis: 48%;
+}
+
+.card .field {
+  margin: 0;
+}

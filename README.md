@@ -1,2 +1,2 @@
-# salary-calc-v2
+# usd-calc-v1
 Created with CodeSandbox
