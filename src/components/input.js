@@ -1,11 +1,11 @@
 export default function Input(options) {
+  // check options
+  if (!options) return;
   // create field
   const field = document.createElement("div");
   field.className = "field";
   // create input
   const input = document.createElement("input");
-  // check options
-  options = !options ? {} : options;
 
   const customClassName = options.className || null;
   const inputType = options.type || "text";
